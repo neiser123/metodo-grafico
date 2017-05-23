@@ -1,23 +1,32 @@
 
-#tabla
+#columnaformulario
    {
-    background: #6CBDBB;   
-     font-family: cursive ;
-     background-image: -moz-radial-gradient(center 45deg,circle cover, #FFFFFF, #129C99);
-  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%,800, from(#FFFFFF), to(#129C99));
-  background-image: radial-gradient(center 45deg,circle cover, #FFFFFF, #129C99);
+    background: #0A807E;   
+    font-family: cursive ;
+    background-image: -moz-radial-gradient(center 45deg,circle cover, #FFFFFF, #0A807E);
+    background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%,800, from(#FFFFFF), to(#0A807E));
+    background-image: radial-gradient(center 45deg,circle cover, #FFFFFF, #0A807E);
      
    }
-   
+     
 #tablad
    {
     background: #393E4A;   
-     font-family: cursive ;
-      font-size:-3em;
-      color: white;
+    font-family: cursive ;
+    font-size:-3em;
+    color: white;
+   }
+   
+ #tabla2{
+       
+  background: #0A807E;   
+  font-family: cursive ;
+  background-image: -moz-radial-gradient(center 45deg,circle cover, #FFFFFF, #0A807E);
+  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%,800, from(#FFFFFF), to(#0A807E));
+  background-image: radial-gradient(center 45deg,circle cover, #FFFFFF, #0A807E);
+       
    }
   
-
 #submit {
     font-weight: bold;
     cursor: pointer;

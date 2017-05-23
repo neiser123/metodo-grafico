@@ -32,10 +32,7 @@ function capturar_grafico()
        //grafica 3
        var xgrafica3=n3/x3;
        var ygrafica3=n3/y3;
-       
-       
-       
-       
+      
     alert(x1);
     
 }
