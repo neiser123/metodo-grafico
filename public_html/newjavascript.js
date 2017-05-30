@@ -16,9 +16,22 @@ function capturar_grafico()
       n2= document.getElementById("n2").value;
       
        //ecuacion tres
-       x3= document.getElementById("x3").value;
-     y3= document.getElementById("y3").value;
-      n3= document.getElementById("n3").value;
+      
+       x3= document.getElementById("x3");
+     y3= document.getElementById("y3");
+  
+if(x3.checked)
+{
+    
+    n3= document.getElementById("n3").value;
+    var xgrafica3=n3;
+}
+   if(y3.checked)
+{
+    
+    n3= document.getElementById("n3").value;
+    var ygrafica3=n3;
+} 
       
       //grafica 1
       var xgrafica1=n1/x1;
@@ -30,9 +43,12 @@ function capturar_grafico()
        var ygrafica2=n2/y2;
        
        //grafica 3
-       var xgrafica3=n3/x3;
-       var ygrafica3=n3/y3;
+       
+       
+       
+          
+
       
-    alert(x1);
+  
     
 }
