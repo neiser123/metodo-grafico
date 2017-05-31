@@ -44,11 +44,12 @@ if(x3.checked)
        
        //grafica 3
        
-       
-       
-          
+var b = JXG.JSXGraph.initBoard('box', {boundingbox: [-5, 5, 5, -5], axis:true});
+var c = b.create('slider', [[-3,4], [2,4], [-5,1,5]]),
+    line1 = b.create('line', [function() { return [c.Value(), 0, -1]; }], {strokeColor: 'black'}),
+    ineq1 = b.create('inequality', [line1], {inverse: true}),
 
-      
-  
+    line2 = b.create('line', [1, 2, -3]), // Line y = 2/3 x + 1 or 0 = -3y + 2x +1
+    ineq2 = b.create('inequality', [line2], {fillColor: 'yellow'});
     
 }
